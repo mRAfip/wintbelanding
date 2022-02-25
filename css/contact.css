@@ -1,0 +1,309 @@
+
+
+html {
+ scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+/*TOP NAVIGATION*/
+header{
+position:fixed;
+top:2rem;
+width:100%;
+z-index:99999;
+transition:0.5s;
+}
+
+
+
+#logo{
+
+font-family: 'Source Sans Pro', sans-serif;
+font-size:1.5rem;
+margin-top:10px;
+margin-left:5%;
+color:#fff;
+font-weight:bold;
+}
+#service_link{
+
+font-family: 'Source Sans Pro', sans-serif;
+font-size:1.1rem;
+margin-top:10px;
+margin-right:5%;
+color:#EC0031;
+
+}
+
+
+.card_profile {
+  width: 100%;
+  height: 600px;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+
+
+}
+
+.card_profile .card_profile_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_profile .card_profile_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+}
+
+
+#portfolio_image_1{
+background-image: url(../images/contact_img.jpg);
+  display: flex;
+  justify-content: left;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+}
+
+.overlay{
+width:100%;
+height:500px;
+background-color:#000;
+opacity:0.3;
+}
+
+
+.card_chat {
+  width: 30px;
+  height:30px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:200px;
+
+
+}
+
+.card_chat .card_chat_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_chat .card_chat_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+
+
+}
+
+#vertical_line{
+background-color:#000;
+width:2px;
+height:200px;
+margin-top:200px;
+margin-left:30px;
+}
+
+#adrs_para{
+color:#000;
+font-size:1.2rem;
+font-family: 'Lato', Arial, sans-serif;
+
+margin-top:200px;
+}
+#mail{
+color:#000;
+font-size:2rem;
+font-family: 'Lato', Arial, sans-serif;
+margin-top:20px;
+}
+
+.card_social {
+  width: 35px;
+  height:35px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+
+  border-radius:8px;
+
+
+}
+
+.card_social .card_social_image {
+  width: inherit;
+  height: inherit;
+
+
+}
+
+.card_social .card_social_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#number{
+color:#000;
+font-size:1.5rem;
+font-family: 'Lato', Arial, sans-serif;
+margin-top:40px;
+}
+
+#mail_id{
+color:#000;
+font-size:1.5rem;
+font-family: 'Lato', Arial, sans-serif;
+margin-top:20px;
+margin-bottom:200px;
+}
+
+ #social_icon_address{
+                 color: #F42D56;
+                  padding-right: 35px;
+                  font-size: 1.8rem;
+                  margin-top:30px;
+
+                }
+
+
+                #socialmedia_address_part{
+                   margin-right:-1%;
+                }
+
+
+#bottom_links{
+background-color:#072227;
+width:100%;
+height:500px;
+}
+
+#footer_head{
+color:#fff;
+font-size:1.2rem;
+font-family: 'Lato', Arial, sans-serif;
+margin-top:50%;
+}
+
+
+
+
+
+#bottom_nav_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.footer_list{
+display: block;
+   color:#fff;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:1.1rem;
+}
+.footer_list_2{
+display: block;
+   color:#fff;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:1.1rem;
+margin-top:7%;
+
+}
+
+#bottom_nav_list li a:hover {
+  color: #EC0031;
+}
+
+
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color:#fff;
+                 width:100%;
+
+
+
+
+
+                }
+                #footer_home_container{
+                background-color:#072227;
+                }
+
+               .new1{
+                border-top: 1px solid #fff;
+                margin-top:30px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+                 margin-bottom:20px;
+
+                }
+
+                #copy_about_text{
+                 color: #5F6368;
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
