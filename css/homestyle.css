@@ -2446,17 +2446,17 @@ text-align:center;
 #title{
 font-weight:950;
 font-family: 'Outfit', sans-serif;
-font-size:1.5rem;
+font-size:1.75rem;
 color:#fff;
 text-align:center;
-margin-top:70%;
+margin-top:50%;
 }
 
 #sub-title{
 
 font-family: 'Outfit', sans-serif;
 color:#fff;
-font-size:1rem;
+font-size:0.85rem;
 text-align:center;
 }
 
@@ -2475,7 +2475,7 @@ text-align:center;
  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
   border-radius: 10px;
   text-decoration:none;
-  margin-left:30%;
+  margin-left:22%;
  }
 
  .btn_home:hover {
@@ -2507,7 +2507,7 @@ padding-bottom:10%;
 .section-title{
 font-weight:bold;
 font-family: 'Outfit', sans-serif;
-font-size:1.75rem;
+font-size:1.35rem;
 margin-top:10%;
 margin-left:2%;
 
@@ -2581,6 +2581,7 @@ margin-top:8%;
 
 
 .amazing_feature{
+margin-top:-10%;
 margin-bottom:10%;
 }
 
