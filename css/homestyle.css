@@ -2446,7 +2446,7 @@ text-align:center;
 #title{
 font-weight:950;
 font-family: 'Outfit', sans-serif;
-font-size:3rem;
+font-size:1.5rem;
 color:#fff;
 text-align:center;
 margin-top:70%;
@@ -2581,7 +2581,6 @@ margin-top:8%;
 
 
 .amazing_feature{
-margin-top:-30%;
 margin-bottom:10%;
 }
 
